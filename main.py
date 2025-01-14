@@ -243,5 +243,5 @@ def newsletter():
     return render_template("index.html", t="Please enter a valid email.")
 
 
-app.run(host='localhost', port= 5000, debug=True)
+app.run(host='localhost', port=5000, debug=True)
 
